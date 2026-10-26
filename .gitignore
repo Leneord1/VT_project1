@@ -159,6 +159,12 @@ ENV/
 env.bak/
 venv.bak/
 
+# Local RAG artifacts
+data/faiss_index/*
+!data/faiss_index/.gitkeep
+*.faiss
+*.pkl
+
 # Spyder project settings
 .spyderproject
 .spyproject
